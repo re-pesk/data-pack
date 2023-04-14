@@ -1,4 +1,4 @@
-import { FunctionalObject, makeClassProxy } from '../functional-object/src/functional-object.js';
+import { FunctionalObject, makeClassProxy } from '../../functional-object/src/functional-object.js';
 
 // export class TypedMap extends Map {
 //   #array = []

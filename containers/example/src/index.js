@@ -1,5 +1,5 @@
-import { FunctionalObject } from '../../functional-object/src/functional-object.js';
-import { Container, ContainerClass } from '../../src/container.js';
+import { FunctionalObject } from '../../../functional-object/src/functional-object.js';
+import { Container, ContainerClass } from '../../../src/container.js';
 
 const container = Container('a', 'b');
 console.log('container: ', container);
