@@ -1,3 +1,5 @@
+[Home](../README.md)
+
 # New Line Separated Values (.nlsv)
 
 New Line Separated Values (NLSV) is a type of [DSV] file that uses a new line character to separate fields and records:
@@ -11,7 +13,5 @@ The nlsv.js library provides three functions:
 * `async getContent(url)` gets content from a `nlsv` file on server,
 * `makeDataObject(nslvContent)` makes data object from content of .nslv file,
 * `async getNlsvData(url)` sequencially calls the other two functions to read content of `.nlsv` file and convert it to data object.
-
-This small library was written for a project jQuery-to-JS that aims to provide examples of how to replace jQuery with pure JavaScript. The data used for testing is from the jQuery API documentation.
 
 *[DSV]: Delimiter Separated Values
