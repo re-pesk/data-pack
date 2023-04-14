@@ -1,0 +1,28 @@
+{
+  "name": "data-pack",
+  "version": "0.0.1",
+  "description": "Data-Pack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/re-pesk/data-pack.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "data-pack"
+  ],
+  "author": "re-pesk",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/re-pesk/data-pack/issues"
+  },
+  "homepage": "https://github.com/re-pesk/data-pack#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
