@@ -1,21 +1,28 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es2021": true,
-        "node": true
-    },
-    "extends": "eslint:recommended",
-    "overrides": [
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: 'airbnb-base',
+  overrides: [
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  ignorePatterns: ['**/*_.js', '**/*_.js', '**/*_/*.js'],
+  rules: {
+    'max-classes-per-file': 'off',
+    'no-console': 'off',
+    'no-constructor-return': 'off',
+    'import/extensions': ['error',
+      { js: 'always' },
     ],
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "rules": {
-    },
-    "settings": {
-      "import/ignore": [
-        "^https?://"
-      ]
-    }
-}
+    'import/no-relative-packages': 'off',
+  },
+  settings: {
+    'import/ignore': [
+      '^https?://',
+    ],
+  },
+};
