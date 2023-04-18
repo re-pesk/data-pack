@@ -1,0 +1,28 @@
+{
+  "name": "nlsv",
+  "version": "0.0.1",
+  "description": "New Line Separated Values",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/re-pesk/nlsv.git"
+  },
+  "keywords": [
+    "jquery",
+    "js",
+    "javascript",
+    "conversion"
+  ],
+  "author": "re-pesk",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/re-pesk/nlsv/issues"
+  },
+  "homepage": "https://github.com/re-pesk/nlsv#readme"
+}

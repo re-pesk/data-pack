@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+pre > code {
+  width: 100%;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  vertical-align: top;
+  padding: 4px;
+}
+
+.category-table tr td:nth-child(1) {
+  width: 15%;
+  font-weight: bold;
+}
+
+.category-table tr td:nth-child(2) {
+  width: 15%;
+}
+
+.item-table th {
+  text-align: left;
+  font-style: italic;
+}
+
+.item-table tr td:nth-child(1) {
+  width: 20%;
+  font-weight: bold;
+}
+
+.item-table tr td:nth-child(2) {
+  width: 60%;
+}
+
+.item-table tr td:nth-child(3) {
+  text-align: center !important;
+}

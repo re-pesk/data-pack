@@ -1,0 +1,1915 @@
+ID
+Name
+Description
+Link
+Category
+
+***
+
+add
+.add()
+Create a new jQuery object with elements added to the set of matched elements.
+http://api.jquery.com/add/
+traversing.miscellaneous-traversal
+
+addback
+.addBack()
+Add the previous set of elements on the stack to the current set, optionally filtered by a selector.
+http://api.jquery.com/addBack/
+traversing.miscellaneous-traversal
+
+addclass
+.addClass()
+Adds the specified class(es) to each element in the set of matched elements.
+http://api.jquery.com/addClass/
+attributes manipulation.class-attribute css
+
+after
+.after()
+Insert content, specified by the parameter, after each element in the set of matched elements.
+http://api.jquery.com/after/
+manipulation.dom-insertion-outside
+
+ajaxcomplete
+.ajaxComplete()
+Register a handler to be called when Ajax requests complete. This is an AjaxEvent.
+http://api.jquery.com/ajaxComplete/
+ajax.global-ajax-event-handlers
+
+ajaxerror
+.ajaxError()
+Register a handler to be called when Ajax requests complete with an error. This is an Ajax Event.
+http://api.jquery.com/ajaxError/
+ajax.global-ajax-event-handlers
+
+ajaxsend
+.ajaxSend()
+Attach a function to be executed before an Ajax request is sent. This is an Ajax Event.
+http://api.jquery.com/ajaxSend/
+ajax.global-ajax-event-handlers
+
+ajaxstart
+.ajaxStart()
+Register a handler to be called when the first Ajax request begins. This is an Ajax Event.
+http://api.jquery.com/ajaxStart/
+ajax.global-ajax-event-handlers
+
+ajaxstop
+.ajaxStop()
+Register a handler to be called when all Ajax requests have completed. This is an Ajax Event.
+http://api.jquery.com/ajaxStop/
+ajax.global-ajax-event-handlers
+
+ajaxsuccess
+.ajaxSuccess()
+Attach a function to be executed whenever an Ajax request completes successfully. This is an Ajax Event.
+http://api.jquery.com/ajaxSuccess/
+ajax.global-ajax-event-handlers
+
+andself
+.andSelf()
+Add the previous set of elements on the stack to the current set.
+http://api.jquery.com/andSelf/
+deprecated.1-8 traversing.miscellaneous-traversal removed
+
+animate
+.animate()
+Perform a custom animation of a set of CSS properties.
+http://api.jquery.com/animate/
+effects.custom
+
+append
+.append()
+Insert content, specified by the parameter, to the end of each element in the set of matched elements.
+http://api.jquery.com/append/
+manipulation.dom-insertion-inside
+
+appendto
+.appendTo()
+Insert every element in the set of matched elements to the end of the target.
+http://api.jquery.com/appendTo/
+manipulation.dom-insertion-inside
+
+attr
+.attr()
+Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.
+http://api.jquery.com/attr/
+attributes manipulation.general-attributes
+
+before
+.before()
+Insert content, specified by the parameter, before each element in the set of matched elements.
+http://api.jquery.com/before/
+manipulation.dom-insertion-outside
+
+bind
+.bind()
+Attach a handler to an event for the elements.
+http://api.jquery.com/bind/
+deprecated.3-0 events.event-handler-attachment
+
+blur
+.blur()
+Bind an event handler to the “blur” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/blur/
+events.form-events forms
+
+change
+.change()
+Bind an event handler to the “change” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/change/
+events.form-events forms
+
+children
+.children()
+Get the children of each element in the set of matched elements, optionally filtered by a selector.
+http://api.jquery.com/children/
+traversing.tree-traversal
+
+clearqueue
+.clearQueue()
+Remove from the queue all items that have not yet been run.
+http://api.jquery.com/clearQueue/
+effects.custom data utilities
+
+click
+.click()
+Bind an event handler to the “click” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/click/
+events.mouse-events
+
+clone
+.clone()
+Create a deep copy of the set of matched elements.
+http://api.jquery.com/clone/
+manipulation.copying
+
+closest
+.closest()
+For each element in the set, get the first element that matches the selector by testing the element itself and traversing up through its ancestors in the DOM tree.
+http://api.jquery.com/closest/
+traversing.tree-traversal
+
+contents
+.contents()
+Get the children of each element in the set of matched elements, including text and comment nodes.
+http://api.jquery.com/contents/
+traversing.miscellaneous-traversal
+
+context
+.context
+The DOM node context originally passed to jQuery(); if none was passed then context will likely be the document.
+http://api.jquery.com/context/
+deprecated.1-10 internals properties.jquery-object-instance removed
+
+contextmenu
+.contextmenu()
+Bind an event handler to the “contextmenu” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/contextmenu/
+events.mouse-events
+
+css
+.css()
+Get the value of a computed style property for the first element in the set of matched elements or set one or more CSS properties for every matched element.
+http://api.jquery.com/css/
+css manipulation.style-properties
+
+data
+.data()
+Store arbitrary data associated with the matched elements or return the value at the named data store for the first element in the set of matched elements.
+http://api.jquery.com/data/
+data miscellaneous.data-storage
+
+dblclick
+.dblclick()
+Bind an event handler to the “dblclick” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/dblclick/
+events.mouse-events
+
+delay
+.delay()
+Set a timer to delay execution of subsequent items in the queue.
+http://api.jquery.com/delay/
+effects.custom
+
+delegate
+.delegate()
+Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements.
+http://api.jquery.com/delegate/
+deprecated.3-0 events.event-handler-attachment
+
+dequeue
+.dequeue()
+Execute the next function on the queue for the matched elements.
+http://api.jquery.com/dequeue/
+effects.custom data utilities
+
+detach
+.detach()
+Remove the set of matched elements from the DOM.
+http://api.jquery.com/detach/
+manipulation.dom-removal
+
+die
+.die()
+Remove event handlers previously attached using .live() from the elements.
+http://api.jquery.com/die/
+deprecated.1-7 events.event-handler-attachment removed
+
+each
+.each()
+Iterate over a jQuery object, executing a function for each matched element.
+http://api.jquery.com/each/
+miscellaneous.collection-manipulation traversing
+
+empty
+.empty()
+Remove all child nodes of the set of matched elements from the DOM.
+http://api.jquery.com/empty/
+manipulation.dom-removal
+
+end
+.end()
+End the most recent filtering operation in the current chain and return the set of matched elements to its previous state.
+http://api.jquery.com/end/
+traversing.miscellaneous-traversal
+
+eq
+.eq()
+Reduce the set of matched elements to the one at the specified index.
+http://api.jquery.com/eq/
+traversing.filtering
+
+error
+.error()
+Bind an event handler to the “error” JavaScript event.
+http://api.jquery.com/error/
+events.browser-events deprecated.1-8 removed
+
+even
+.even()
+Reduce the set of matched elements to the even ones in the set, numbered from zero.
+http://api.jquery.com/even/
+traversing.filtering
+
+fadein
+.fadeIn()
+Display the matched elements by fading them to opaque.
+http://api.jquery.com/fadeIn/
+effects.fading
+
+fadeout
+.fadeOut()
+Hide the matched elements by fading them to transparent.
+http://api.jquery.com/fadeOut/
+effects.fading
+
+fadeto
+.fadeTo()
+Adjust the opacity of the matched elements.
+http://api.jquery.com/fadeTo/
+effects.fading
+
+fadetoggle
+.fadeToggle()
+Display or hide the matched elements by animating their opacity.
+http://api.jquery.com/fadeToggle/
+effects effects.fading
+
+filter
+.filter()
+Reduce the set of matched elements to those that match the selector or pass the function’s test.
+http://api.jquery.com/filter/
+traversing.filtering
+
+find
+.find()
+Get the descendants of each element in the current set of matched elements, filtered by a selector, jQuery object, or element.
+http://api.jquery.com/find/
+traversing.tree-traversal
+
+finish
+.finish()
+Stop the currently-running animation, remove all queued animations, and complete all animations for the matched elements.
+http://api.jquery.com/finish/
+effects.custom
+
+first
+.first()
+Reduce the set of matched elements to the first in the set.
+http://api.jquery.com/first/
+traversing.filtering
+
+focus
+.focus()
+Bind an event handler to the “focus” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/focus/
+events.form-events forms
+
+focusin
+.focusin()
+Bind an event handler to the “focusin” event.
+http://api.jquery.com/focusin/
+events.form-events forms
+
+focusout
+.focusout()
+Bind an event handler to the “focusout” JavaScript event.
+http://api.jquery.com/focusout/
+events.form-events forms
+
+get
+.get()
+Retrieve the DOM elements matched by the jQuery object.
+http://api.jquery.com/get/
+miscellaneous.dom-element-methods
+
+has
+.has()
+Reduce the set of matched elements to those that have a descendant that matches the selector or DOM element. 
+http://api.jquery.com/has/
+traversing.filtering
+
+hasclass
+.hasClass()
+Determine whether any of the matched elements are assigned the given class.
+http://api.jquery.com/hasClass/
+attributes manipulation.class-attribute css
+
+height
+.height()
+Get the current computed height for the first element in the set of matched elements or set the height of every matched element.
+http://api.jquery.com/height/
+css dimensions manipulation.style-properties
+
+hide
+.hide()
+Hide the matched elements.
+http://api.jquery.com/hide/
+effects.basics
+
+hover
+.hover()
+Bind one or two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements.
+http://api.jquery.com/hover/
+events.mouse-events
+
+html
+.html()
+Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.
+http://api.jquery.com/html/
+attributes manipulation.dom-insertion-inside
+
+index
+.index()
+Search for a given element from among the matched elements.
+http://api.jquery.com/index/
+miscellaneous.dom-element-methods
+
+innerheight
+.innerHeight()
+Get the current computed inner height (including padding but not border) for the first element in the set of matched elements or set the inner height of every matched element.
+http://api.jquery.com/innerHeight/
+css dimensions manipulation.style-properties
+
+innerwidth
+.innerWidth()
+Get the current computed inner width (including padding but not border) for the first element in the set of matched elements or set the inner width of every matched element.
+http://api.jquery.com/innerWidth/
+css dimensions manipulation.style-properties
+
+insertafter
+.insertAfter()
+Insert every element in the set of matched elements after the target.
+http://api.jquery.com/insertAfter/
+manipulation.dom-insertion-outside
+
+insertbefore
+.insertBefore()
+Insert every element in the set of matched elements before the target.
+http://api.jquery.com/insertBefore/
+manipulation.dom-insertion-outside
+
+is
+.is()
+Check the current matched set of elements against a selector, element, or jQuery object and return true if at least one of these elements matches the given arguments.
+http://api.jquery.com/is/
+traversing.filtering
+
+jquery-2
+.jquery
+A string containing the jQuery version number.
+http://api.jquery.com/jquery-2/
+internals properties.jquery-object-instance
+
+keydown
+.keydown()
+Bind an event handler to the “keydown” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/keydown/
+events.keyboard-events
+
+keypress
+.keypress()
+Bind an event handler to the “keypress” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/keypress/
+events.keyboard-events
+
+keyup
+.keyup()
+Bind an event handler to the “keyup” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/keyup/
+events.keyboard-events
+
+last
+.last()
+Reduce the set of matched elements to the final one in the set.
+http://api.jquery.com/last/
+traversing.filtering
+
+length
+.length
+The number of elements in the jQuery object.
+http://api.jquery.com/length/
+properties.jquery-object-instance
+
+live
+.live()
+Attach an event handler for all elements which match the current selector, now and in the future.
+http://api.jquery.com/live/
+deprecated.1-7 events.event-handler-attachment removed
+
+load
+.load()
+Load data from the server and place the returned HTML into the matched elements.
+http://api.jquery.com/load/
+ajax.shorthand-methods
+
+load-event
+.load()
+Bind an event handler to the “load” JavaScript event.
+http://api.jquery.com/load-event/
+deprecated.1-8 events.document-loading removed
+
+map
+.map()
+Pass each element in the current matched set through a function, producing a new jQuery object containing the return values.
+http://api.jquery.com/map/
+traversing.filtering
+
+mousedown
+.mousedown()
+Bind an event handler to the “mousedown” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/mousedown/
+events.mouse-events
+
+mouseenter
+.mouseenter()
+Bind an event handler to be fired when the mouse enters an element, or trigger that handler on an element. 
+http://api.jquery.com/mouseenter/
+events.mouse-events
+
+mouseleave
+.mouseleave()
+Bind an event handler to be fired when the mouse leaves an element, or trigger that handler on an element. 
+http://api.jquery.com/mouseleave/
+events.mouse-events
+
+mousemove
+.mousemove()
+Bind an event handler to the “mousemove” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/mousemove/
+events.mouse-events
+
+mouseout
+.mouseout()
+Bind an event handler to the “mouseout” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/mouseout/
+events.mouse-events
+
+mouseover
+.mouseover()
+Bind an event handler to the “mouseover” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/mouseover/
+events.mouse-events
+
+mouseup
+.mouseup()
+Bind an event handler to the “mouseup” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/mouseup/
+events.mouse-events
+
+next
+.next()
+Get the immediately following sibling of each element in the set of matched elements. If a selector is provided, it retrieves the next sibling only if it matches that selector.
+http://api.jquery.com/next/
+traversing.tree-traversal
+
+nextall
+.nextAll()
+Get all following siblings of each element in the set of matched elements, optionally filtered by a selector. 
+http://api.jquery.com/nextAll/
+traversing.tree-traversal
+
+nextuntil
+.nextUntil()
+Get all following siblings of each element up to but not including the element matched by the selector, DOM node, or jQuery object passed.
+http://api.jquery.com/nextUntil/
+traversing.tree-traversal
+
+not
+.not()
+Remove elements from the set of matched elements.
+http://api.jquery.com/not/
+traversing.filtering traversing.miscellaneous-traversal
+
+odd
+.odd()
+Reduce the set of matched elements to the odd ones in the set, numbered from zero.
+http://api.jquery.com/odd/
+traversing.filtering
+
+off
+.off()
+Remove an event handler.
+http://api.jquery.com/off/
+events.event-handler-attachment
+
+offset
+.offset()
+Get the current coordinates of the first element, or set the coordinates of every element, in the set of matched elements, relative to the document.
+http://api.jquery.com/offset/
+css offset manipulation.style-properties
+
+offsetparent
+.offsetParent()
+Get the closest ancestor element that is positioned.
+http://api.jquery.com/offsetParent/
+offset traversing.tree-traversal
+
+on
+.on()
+Attach an event handler function for one or more events to the selected elements.
+http://api.jquery.com/on/
+events.event-handler-attachment
+
+one
+.one()
+Attach a handler to an event for the elements. The handler is executed at most once per element per event type.
+http://api.jquery.com/one/
+events.event-handler-attachment
+
+outerheight
+.outerHeight()
+Get the current computed outer height (including padding, border, and optionally margin) for the first element in the set of matched elements or set the outer height of every matched element.
+http://api.jquery.com/outerHeight/
+css dimensions manipulation.style-properties
+
+outerwidth
+.outerWidth()
+Get the current computed outer width (including padding, border, and optionally margin) for the first element in the set of matched elements or set the outer width of every matched element.
+http://api.jquery.com/outerWidth/
+css dimensions manipulation.style-properties
+
+parent
+.parent()
+Get the parent of each element in the current set of matched elements, optionally filtered by a selector.
+http://api.jquery.com/parent/
+traversing.tree-traversal
+
+parents
+.parents()
+Get the ancestors of each element in the current set of matched elements, optionally filtered by a selector. 
+http://api.jquery.com/parents/
+traversing.tree-traversal
+
+parentsuntil
+.parentsUntil()
+Get the ancestors of each element in the current set of matched elements, up to but not including the element matched by the selector, DOM node, or jQuery object.
+http://api.jquery.com/parentsUntil/
+traversing.tree-traversal
+
+position
+.position()
+Get the current coordinates of the first element in the set of matched elements, relative to the offset parent.
+http://api.jquery.com/position/
+css offset manipulation.style-properties
+
+prepend
+.prepend()
+Insert content, specified by the parameter, to the beginning of each element in the set of matched elements. 
+http://api.jquery.com/prepend/
+manipulation.dom-insertion-inside
+
+prependto
+.prependTo()
+Insert every element in the set of matched elements to the beginning of the target.
+http://api.jquery.com/prependTo/
+manipulation.dom-insertion-inside
+
+prev
+.prev()
+Get the immediately preceding sibling of each element in the set of matched elements. If a selector is provided, it retrieves the previous sibling only if it matches that selector.
+http://api.jquery.com/prev/
+traversing.tree-traversal
+
+prevall
+.prevAll()
+Get all preceding siblings of each element in the set of matched elements, optionally filtered by a selector, in the reverse document order.
+http://api.jquery.com/prevAll/
+traversing.tree-traversal
+
+prevuntil
+.prevUntil()
+Get all preceding siblings of each element up to but not including the element matched by the selector, DOM node, or jQuery object.
+http://api.jquery.com/prevUntil/
+traversing.tree-traversal
+
+promise
+.promise()
+Return a Promise object to observe when all actions of a certain type bound to the collection, queued or not, have finished.
+http://api.jquery.com/promise/
+deferred-object
+
+prop
+.prop()
+Get the value of a property for the first element in the set of matched elements or set one or more properties for every matched element.
+http://api.jquery.com/prop/
+attributes manipulation.general-attributes
+
+pushstack
+.pushStack()
+Add a collection of DOM elements onto the jQuery stack.
+http://api.jquery.com/pushStack/
+internals
+
+queue
+.queue()
+Show or manipulate the queue of functions to be executed on the matched elements.
+http://api.jquery.com/queue/
+effects.custom data utilities
+
+ready
+.ready()
+Specify a function to execute when the DOM is fully loaded.
+http://api.jquery.com/ready/
+events.document-loading
+
+remove
+.remove()
+Remove the set of matched elements from the DOM.
+http://api.jquery.com/remove/
+manipulation.dom-removal
+
+removeattr
+.removeAttr()
+Remove an attribute from each element in the set of matched elements.
+http://api.jquery.com/removeAttr/
+attributes manipulation.general-attributes
+
+removeclass
+.removeClass()
+Remove a single class, multiple classes, or all classes from each element in the set of matched elements.
+http://api.jquery.com/removeClass/
+attributes manipulation.class-attribute css
+
+removedata
+.removeData()
+Remove a previously-stored piece of data.
+http://api.jquery.com/removeData/
+data miscellaneous.data-storage
+
+removeprop
+.removeProp()
+Remove a property for the set of matched elements.
+http://api.jquery.com/removeProp/
+attributes manipulation.general-attributes
+
+replaceall
+.replaceAll()
+Replace each target element with the set of matched elements.
+http://api.jquery.com/replaceAll/
+manipulation.dom-replacement
+
+replacewith
+.replaceWith()
+Replace each element in the set of matched elements with the provided new content and return the set of elements that was removed.
+http://api.jquery.com/replaceWith/
+manipulation.dom-replacement
+
+resize
+.resize()
+Bind an event handler to the “resize” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/resize/
+events.browser-events
+
+scroll
+.scroll()
+Bind an event handler to the “scroll” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/scroll/
+events.browser-events
+
+scrollleft
+.scrollLeft()
+Get the current horizontal position of the scroll bar for the first element in the set of matched elements or set the horizontal position of the scroll bar for every matched element.
+http://api.jquery.com/scrollLeft/
+css offset manipulation.style-properties
+
+scrolltop
+.scrollTop()
+Get the current vertical position of the scroll bar for the first element in the set of matched elements or set the vertical position of the scroll bar for every matched element.
+http://api.jquery.com/scrollTop/
+css offset manipulation.style-properties
+
+select
+.select()
+Bind an event handler to the “select” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/select/
+events.form-events forms
+
+selector
+.selector
+A selector representing selector passed to jQuery(), if any, when creating the original set.
+http://api.jquery.com/selector/
+deprecated.1-7 internals properties.jquery-object-instance removed
+
+serialize
+.serialize()
+Encode a set of form elements as a string for submission.
+http://api.jquery.com/serialize/
+forms ajax.helper-functions
+
+serializearray
+.serializeArray()
+Encode a set of form elements as an array of names and values.
+http://api.jquery.com/serializeArray/
+forms ajax.helper-functions
+
+show
+.show()
+Display the matched elements.
+http://api.jquery.com/show/
+effects.basics
+
+siblings
+.siblings()
+Get the siblings of each element in the set of matched elements, optionally filtered by a selector.
+http://api.jquery.com/siblings/
+traversing.tree-traversal
+
+size
+.size()
+Return the number of elements in the jQuery object.
+http://api.jquery.com/size/
+deprecated.1-8 miscellaneous.dom-element-methods removed
+
+slice
+.slice()
+Reduce the set of matched elements to a subset specified by a range of indices.
+http://api.jquery.com/slice/
+traversing.filtering
+
+slidedown
+.slideDown()
+Display the matched elements with a sliding motion.
+http://api.jquery.com/slideDown/
+effects.sliding
+
+slidetoggle
+.slideToggle()
+Display or hide the matched elements with a sliding motion.
+http://api.jquery.com/slideToggle/
+effects.sliding
+
+slideup
+.slideUp()
+Hide the matched elements with a sliding motion.
+http://api.jquery.com/slideUp/
+effects.sliding
+
+stop
+.stop()
+Stop the currently-running animation on the matched elements.
+http://api.jquery.com/stop/
+effects.custom
+
+submit
+.submit()
+Bind an event handler to the “submit” JavaScript event, or trigger that event on an element.
+http://api.jquery.com/submit/
+events.form-events forms
+
+text
+.text()
+Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements.
+http://api.jquery.com/text/
+manipulation.dom-insertion-inside
+
+toarray
+.toArray()
+Retrieve all the elements contained in the jQuery set, as an array.
+http://api.jquery.com/toArray/
+miscellaneous.dom-element-methods
+
+toggle
+.toggle()
+Display or hide the matched elements.
+http://api.jquery.com/toggle/
+effects.basics
+
+toggle-event
+.toggle()
+Bind two or more handlers to the matched elements, to be executed on alternate clicks.
+http://api.jquery.com/toggle-event/
+deprecated.1-8 events.mouse-events removed
+
+toggleclass
+.toggleClass()
+Add or remove one or more classes from each element in the set of matched elements, depending on either the class’s presence or the value of the state argument.
+http://api.jquery.com/toggleClass/
+attributes manipulation.class-attribute css
+
+trigger
+.trigger()
+Execute all handlers and behaviors attached to the matched elements for the given event type.
+http://api.jquery.com/trigger/
+events.event-handler-attachment
+
+triggerhandler
+.triggerHandler()
+Execute all handlers attached to an element for an event.
+http://api.jquery.com/triggerHandler/
+events.event-handler-attachment
+
+unbind
+.unbind()
+Remove a previously-attached event handler from the elements.
+http://api.jquery.com/unbind/
+deprecated.3-0 events.event-handler-attachment
+
+undelegate
+.undelegate()
+Remove a handler from the event for all elements which match the current selector, based upon a specific set of root elements.
+http://api.jquery.com/undelegate/
+deprecated.3-0 events.event-handler-attachment
+
+unload
+.unload()
+Bind an event handler to the “unload” JavaScript event.
+http://api.jquery.com/unload/
+deprecated.1-8 events.document-loading removed
+
+unwrap
+.unwrap()
+Remove the parents of the set of matched elements from the DOM, leaving the matched elements in their place. 
+http://api.jquery.com/unwrap/
+manipulation.dom-insertion-around manipulation.dom-removal
+
+val
+.val()
+Get the current value of the first element in the set of matched elements or set the value of every matched element.
+http://api.jquery.com/val/
+attributes forms manipulation.general-attributes
+
+width
+.width()
+Get the current computed width for the first element in the set of matched elements or set the width of every matched element.
+http://api.jquery.com/width/
+css dimensions manipulation.style-properties
+
+wrap
+.wrap()
+Wrap an HTML structure around each element in the set of matched elements.
+http://api.jquery.com/wrap/
+manipulation.dom-insertion-around
+
+wrapall
+.wrapAll()
+Wrap an HTML structure around all elements in the set of matched elements.
+http://api.jquery.com/wrapAll/
+manipulation.dom-insertion-around
+
+wrapinner
+.wrapInner()
+Wrap an HTML structure around the content of each element in the set of matched elements.
+http://api.jquery.com/wrapInner/
+manipulation.dom-insertion-around
+
+selector.animated
+Selector :animated
+Select all elements that are in the progress of an animation at the time the selector is run.
+http://api.jquery.com/animated-selector/
+selectors.basic-filter selectors.jquery-extensions
+
+selector.button
+Selector :button
+Selects all button elements and elements of type button.
+http://api.jquery.com/button-selector/
+selectors.form selectors.jquery-extensions
+
+selector.checkbox
+Selector :checkbox
+Selects all elements of type checkbox.
+http://api.jquery.com/checkbox-selector/
+selectors.form selectors.jquery-extensions
+
+selector.checked
+Selector :checked
+Matches all elements that are checked or selected.
+http://api.jquery.com/checked-selector/
+selectors.form
+
+selector.contains
+Selector :contains()
+Select all elements that contain the specified text.
+http://api.jquery.com/contains-selector/
+selectors.content-filter
+
+selector.disabled
+Selector :disabled
+Selects all elements that are disabled.
+http://api.jquery.com/disabled-selector/
+selectors.form
+
+selector.empty
+Selector :empty
+Select all elements that have no children (including text nodes).
+http://api.jquery.com/empty-selector/
+selectors.content-filter
+
+selector.enabled
+Selector :enabled
+Selects all elements that are enabled.
+http://api.jquery.com/enabled-selector/
+selectors.form
+
+selector.eq
+Selector :eq()
+Select the element at index n within the matched set.
+http://api.jquery.com/eq-selector/
+selectors.basic-filter deprecated.3-4 selectors.jquery-extensions
+
+selector.even
+Selector :even
+Selects even elements, zero-indexed. See also :odd.
+http://api.jquery.com/even-selector/
+selectors.basic-filter deprecated.3-4 selectors.jquery-extensions
+
+selector.file
+Selector :file
+Selects all elements of type file.
+http://api.jquery.com/file-selector/
+selectors.form selectors.jquery-extensions
+
+selector.first
+Selector :first
+Selects the first matched DOM element.
+http://api.jquery.com/first-selector/
+selectors.basic-filter deprecated.3-4 selectors.jquery-extensions
+
+selector.first-child
+Selector :first-child
+Selects all elements that are the first child of their parent.
+http://api.jquery.com/first-child-selector/
+selectors.child-filter
+
+selector.first-of-type
+Selector :first-of-type
+Selects all elements that are the first among siblings of the same element name.
+http://api.jquery.com/first-of-type-selector/
+selectors.child-filter
+
+selector.focus
+Selector :focus
+Selects element if it is currently focused.
+http://api.jquery.com/focus-selector/
+selectors.basic-filter selectors.form
+
+selector.gt
+Selector :gt()
+Select all elements at an index greater than index within the matched set.
+http://api.jquery.com/gt-selector/
+selectors.basic-filter deprecated.3-4 selectors.jquery-extensions
+
+selector.has
+Selector :has()
+Selects elements which contain at least one element that matches the specified selector.
+http://api.jquery.com/has-selector/
+selectors.content-filter selectors.jquery-extensions
+
+selector.header
+Selector :header
+Selects all elements that are headers, like h1, h2, h3 and so on.
+http://api.jquery.com/header-selector/
+selectors.basic-filter selectors.jquery-extensions
+
+selector.hidden
+Selector :hidden
+Selects all elements that are hidden.
+http://api.jquery.com/hidden-selector/
+selectors.jquery-extensions selectors.visibility-filter
+
+selector.image
+Selector :image
+Selects all elements of type image.
+http://api.jquery.com/image-selector/
+selectors.form selectors.jquery-extensions
+
+selector.input
+Selector :input
+Selects all input, textarea, select and button elements.
+http://api.jquery.com/input-selector/
+selectors.form selectors.jquery-extensions
+
+selector.lang
+Selector :lang()
+Selects all elements of the specified language.
+http://api.jquery.com/lang-selector/
+selectors.basic-filter
+
+selector.last
+Selector :last
+Selects the last matched element.
+http://api.jquery.com/last-selector/
+selectors.basic-filter deprecated.3-4 selectors.jquery-extensions
+
+selector.last-child
+Selector :last-child
+Selects all elements that are the last child of their parent.
+http://api.jquery.com/last-child-selector/
+selectors.child-filter
+
+selector.last-of-type
+Selector :last-of-type
+Selects all elements that are the last among siblings of the same element name.
+http://api.jquery.com/last-of-type-selector/
+selectors.child-filter
+
+selector.lt
+Selector :lt()
+Select all elements at an index less than index within the matched set.
+http://api.jquery.com/lt-selector/
+selectors.basic-filter deprecated.3-4 selectors.jquery-extensions
+
+selector.not
+Selector :not()
+Selects all elements that do not match the given selector.
+http://api.jquery.com/not-selector/
+selectors.basic-filter
+
+selector.nth-child
+Selector :nth-child()
+Selects all elements that are the nth-child of their parent.
+http://api.jquery.com/nth-child-selector/
+selectors.child-filter
+
+selector.nth-last-child
+Selector :nth-last-child()
+Selects all elements that are the nth-child of their parent, counting from the last element to the first.
+http://api.jquery.com/nth-last-child-selector/
+selectors.child-filter
+
+selector.nth-last-of-type
+Selector :nth-last-of-type()
+Selects all the elements that are the nth-child of their parent in relation to siblings with the same element name, counting from the last element to the first.
+http://api.jquery.com/nth-last-of-type-selector/
+selectors.child-filter
+
+selector.nth-of-type
+Selector :nth-of-type()
+Selects all elements that are the nth child of their parent in relation to siblings with the same element name.
+http://api.jquery.com/nth-of-type-selector/
+selectors.child-filter
+
+selector.odd
+Selector :odd
+Selects odd elements, zero-indexed. See also :even.
+http://api.jquery.com/odd-selector/
+selectors.basic-filter deprecated.3-4 selectors.jquery-extensions
+
+selector.only-child
+Selector :only-child
+Selects all elements that are the only child of their parent.
+http://api.jquery.com/only-child-selector/
+selectors.child-filter
+
+selector.only-of-type
+Selector :only-of-type
+Selects all elements that have no siblings with the same element name.
+http://api.jquery.com/only-of-type-selector/
+selectors.child-filter
+
+selector.parent
+Selector :parent
+Select all elements that have at least one child node (either an element or text).
+http://api.jquery.com/parent-selector/
+selectors.content-filter selectors.jquery-extensions
+
+selector.password
+Selector :password
+Selects all elements of type password.
+http://api.jquery.com/password-selector/
+selectors.form selectors.jquery-extensions
+
+selector.radio
+Selector :radio
+Selects all elements of type radio.
+http://api.jquery.com/radio-selector/
+selectors.form selectors.jquery-extensions
+
+selector.reset
+Selector :reset
+Selects all elements of type reset.
+http://api.jquery.com/reset-selector/
+selectors.form selectors.jquery-extensions
+
+selector.root
+Selector :root
+Selects the element that is the root of the document.
+http://api.jquery.com/root-selector/
+selectors.basic-filter
+
+selector.selected
+Selector :selected
+Selects all elements that are selected.
+http://api.jquery.com/selected-selector/
+selectors.form selectors.jquery-extensions
+
+selector.submit
+Selector :submit
+Selects all elements of type submit.
+http://api.jquery.com/submit-selector/
+selectors.form selectors.jquery-extensions
+
+selector.target
+Selector :target
+Selects the target element indicated by the fragment identifier of the document’s URI.
+http://api.jquery.com/target-selector/
+selectors.basic-filter
+
+selector.text
+Selector :text
+Selects all input elements of type text.
+http://api.jquery.com/text-selector/
+selectors.form selectors.jquery-extensions
+
+selector.visible
+Selector :visible
+Selects all elements that are visible.
+http://api.jquery.com/visible-selector/
+selectors.jquery-extensions selectors.visibility-filter
+
+selector.all
+Selector All (“*”)
+Selects all elements.
+http://api.jquery.com/all-selector/
+selectors.basic
+
+selector.attribute-contains-prefix
+Selector Attribute Contains Prefix [name|=”value”]
+Selects elements that have the specified attribute with a value either equal to a given string or starting with that string followed by a hyphen (-).
+http://api.jquery.com/attribute-contains-prefix-selector/
+selectors.attribute
+
+selector.attribute-contains-word
+Selector Attribute Contains Word [name~=”value”]
+Selects elements that have the specified attribute with a value containing a given word, delimited by spaces. 
+http://api.jquery.com/attribute-contains-word-selector/
+selectors.attribute
+
+selector.attribute-contains
+Selector Attribute Contains [name*=”value”]
+Selects elements that have the specified attribute with a value containing a given substring.
+http://api.jquery.com/attribute-contains-selector/
+selectors.attribute
+
+selector.attribute-ends-with
+Selector Attribute Ends With [name$=”value”]
+Selects elements that have the specified attribute with a value ending exactly with a given string. The comparison is case sensitive.
+http://api.jquery.com/attribute-ends-with-selector/
+selectors.attribute
+
+selector.attribute-equals
+Selector Attribute Equals [name=”value”]
+Selects elements that have the specified attribute with a value exactly equal to a certain value.
+http://api.jquery.com/attribute-equals-selector/
+selectors.attribute
+
+selector.attribute-not-equal
+Selector Attribute Not Equal [name!=”value”]
+Select elements that either don’t have the specified attribute, or do have the specified attribute but not with a certain value.
+http://api.jquery.com/attribute-not-equal-selector/
+selectors.attribute selectors.jquery-extensions
+
+selector.attribute-starts-with
+Selector Attribute Starts With [name^=”value”]
+Selects elements that have the specified attribute with a value beginning exactly with a given string.
+http://api.jquery.com/attribute-starts-with-selector/
+selectors.attribute
+
+selector.child
+Selector Child (“parent > child”)
+Selects all direct child elements specified by “child” of elements specified by “parent”.
+http://api.jquery.com/child-selector/
+selectors.hierarchy
+
+selector.class
+Selector Class (“.class”)
+Selects all elements with the given class.
+http://api.jquery.com/class-selector/
+selectors.basic
+
+selector.descendant
+Selector Descendant (“ancestor descendant”)
+Selects all elements that are descendants of a given ancestor.
+http://api.jquery.com/descendant-selector/
+selectors.hierarchy
+
+selector.element
+Selector Element (“element”)
+Selects all elements with the given tag name.
+http://api.jquery.com/element-selector/
+selectors.basic
+
+selector.has-attribute
+Selector Has Attribute [name]
+Selects elements that have the specified attribute, with any value.
+http://api.jquery.com/has-attribute-selector/
+selectors.attribute
+
+selector.id
+Selector ID (“#id”)
+Selects a single element with the given id attribute.
+http://api.jquery.com/id-selector/
+selectors.basic
+
+selector.multiple
+Selector Multiple (“selector1, selector2, selectorN”)
+Selects the combined results of all the specified selectors.
+http://api.jquery.com/multiple-selector/
+selectors.basic
+
+selector.multiple-attribute
+Selector Multiple Attribute [name=”value”][name2=”value2″]
+Matches elements that match all of the specified attribute filters.
+http://api.jquery.com/multiple-attribute-selector/
+selectors.attribute
+
+selector.next-adjacent
+Selector Next Adjacent (“prev + next”)
+Selects all next elements matching “next” that are immediately preceded by a sibling “prev”.
+http://api.jquery.com/next-adjacent-selector/
+selectors.hierarchy
+
+selector.next-siblings
+Selector Next Siblings (“prev ~ siblings”)
+Selects all sibling elements that follow after the “prev” element, have the same parent, and match the filtering “siblings” selector.
+http://api.jquery.com/next-siblings-selector/
+selectors.hierarchy
+
+callbacks.add
+callbacks.add()
+Add a callback or a collection of callbacks to a callback list.
+http://api.jquery.com/callbacks.add/
+callbacks-object
+
+callbacks.disable
+callbacks.disable()
+Disable a callback list from doing anything more.
+http://api.jquery.com/callbacks.disable/
+callbacks-object
+
+callbacks.disabled
+callbacks.disabled()
+Determine if the callbacks list has been disabled.
+http://api.jquery.com/callbacks.disabled/
+callbacks-object
+
+callbacks.empty
+callbacks.empty()
+Remove all of the callbacks from a list.
+http://api.jquery.com/callbacks.empty/
+callbacks-object
+
+callbacks.fire
+callbacks.fire()
+Call all of the callbacks with the given arguments.
+http://api.jquery.com/callbacks.fire/
+callbacks-object
+
+callbacks.firewith
+callbacks.fireWith()
+Call all callbacks in a list with the given context and arguments.
+http://api.jquery.com/callbacks.fireWith/
+callbacks-object
+
+callbacks.fired
+callbacks.fired()
+Determine if the callbacks have already been called at least once.
+http://api.jquery.com/callbacks.fired/
+callbacks-object
+
+callbacks.has
+callbacks.has()
+Determine whether or not the list has any callbacks attached. If a callback is provided as an argument, determine whether it is in a list.
+http://api.jquery.com/callbacks.has/
+callbacks-object
+
+callbacks.lock
+callbacks.lock()
+Lock a callback list in its current state.
+http://api.jquery.com/callbacks.lock/
+callbacks-object
+
+callbacks.locked
+callbacks.locked()
+Determine if the callbacks list has been locked.
+http://api.jquery.com/callbacks.locked/
+callbacks-object
+
+callbacks.remove
+callbacks.remove()
+Remove a callback or a collection of callbacks from a callback list.
+http://api.jquery.com/callbacks.remove/
+callbacks-object
+
+deferred.always
+deferred.always()
+Add handlers to be called when the Deferred object is either resolved or rejected.
+http://api.jquery.com/deferred.always/
+deferred-object
+
+deferred.catch
+deferred.catch()
+Add handlers to be called when the Deferred object is rejected.
+http://api.jquery.com/deferred.catch/
+deferred-object
+
+deferred.done
+deferred.done()
+Add handlers to be called when the Deferred object is resolved.
+http://api.jquery.com/deferred.done/
+deferred-object
+
+deferred.fail
+deferred.fail()
+Add handlers to be called when the Deferred object is rejected.
+http://api.jquery.com/deferred.fail/
+deferred-object
+
+deferred.isrejected
+deferred.isRejected()
+Determine whether a Deferred object has been rejected.
+http://api.jquery.com/deferred.isRejected/
+deferred-object deprecated.1-7 removed
+
+deferred.isresolved
+deferred.isResolved()
+Determine whether a Deferred object has been resolved.
+http://api.jquery.com/deferred.isResolved/
+deferred-object deprecated.1-7 removed
+
+deferred.notify
+deferred.notify()
+Call the progressCallbacks on a Deferred object with the given args.
+http://api.jquery.com/deferred.notify/
+deferred-object
+
+deferred.notifywith
+deferred.notifyWith()
+Call the progressCallbacks on a Deferred object with the given context and args.
+http://api.jquery.com/deferred.notifyWith/
+deferred-object
+
+deferred.pipe
+deferred.pipe()
+Utility method to filter and/or chain Deferreds.
+http://api.jquery.com/deferred.pipe/
+deferred-object deprecated.1-8
+
+deferred.progress
+deferred.progress()
+Add handlers to be called when the Deferred object generates progress notifications.
+http://api.jquery.com/deferred.progress/
+deferred-object
+
+deferred.promise
+deferred.promise()
+Return a Deferred’s Promise object.
+http://api.jquery.com/deferred.promise/
+deferred-object
+
+deferred.reject
+deferred.reject()
+Reject a Deferred object and call any failCallbacks with the given args.
+http://api.jquery.com/deferred.reject/
+deferred-object
+
+deferred.rejectwith
+deferred.rejectWith()
+Reject a Deferred object and call any failCallbacks with the given context and args.
+http://api.jquery.com/deferred.rejectWith/
+deferred-object
+
+deferred.resolve
+deferred.resolve()
+Resolve a Deferred object and call any doneCallbacks with the given args.
+http://api.jquery.com/deferred.resolve/
+deferred-object
+
+deferred.resolvewith
+deferred.resolveWith()
+Resolve a Deferred object and call any doneCallbacks with the given context and args.
+http://api.jquery.com/deferred.resolveWith/
+deferred-object
+
+deferred.state
+deferred.state()
+Determine the current state of a Deferred object.
+http://api.jquery.com/deferred.state/
+deferred-object
+
+deferred.then
+deferred.then()
+Add handlers to be called when the Deferred object is resolved, rejected, or still in progress.
+http://api.jquery.com/deferred.then/
+deferred-object
+
+event.currenttarget
+event.currentTarget
+The current DOM element within the event bubbling phase.
+http://api.jquery.com/event.currentTarget/
+events.event-object
+
+event.data
+event.data
+An optional object of data passed to an event method when the current executing handler is bound.
+http://api.jquery.com/event.data/
+events.event-object
+
+event.delegatetarget
+event.delegateTarget
+The element where the currently-called jQuery event handler was attached.
+http://api.jquery.com/event.delegateTarget/
+events.event-object events
+
+event.isdefaultprevented
+event.isDefaultPrevented()
+Returns whether event.preventDefault() was ever called on this event object.
+http://api.jquery.com/event.isDefaultPrevented/
+events.event-object
+
+event.isimmediatepropagationstopped
+event.isImmediatePropagationStopped()
+Returns whether event.stopImmediatePropagation() was ever called on this event object.
+http://api.jquery.com/event.isImmediatePropagationStopped/
+events.event-object
+
+event.ispropagationstopped
+event.isPropagationStopped()
+Returns whether event.stopPropagation() was ever called on this event object.
+http://api.jquery.com/event.isPropagationStopped/
+events.event-object
+
+event.metakey
+event.metaKey
+Indicates whether the META key was pressed when the event fired.
+http://api.jquery.com/event.metaKey/
+events.event-object
+
+event.namespace
+event.namespace
+The namespace specified when the event was triggered.
+http://api.jquery.com/event.namespace/
+events.event-object
+
+event.pagex
+event.pageX
+The mouse position relative to the left edge of the document.
+http://api.jquery.com/event.pageX/
+events.event-object
+
+event.pagey
+event.pageY
+The mouse position relative to the top edge of the document.
+http://api.jquery.com/event.pageY/
+events.event-object
+
+event.preventdefault
+event.preventDefault()
+If this method is called, the default action of the event will not be triggered.
+http://api.jquery.com/event.preventDefault/
+events.event-object
+
+event.relatedtarget
+event.relatedTarget
+The other DOM element involved in the event, if any.
+http://api.jquery.com/event.relatedTarget/
+events.event-object
+
+event.result
+event.result
+The last value returned by an event handler that was triggered by this event, unless the value was undefined. 
+http://api.jquery.com/event.result/
+events.event-object
+
+event.stopimmediatepropagation
+event.stopImmediatePropagation()
+Keeps the rest of the handlers from being executed and prevents the event from bubbling up the DOM tree.
+http://api.jquery.com/event.stopImmediatePropagation/
+events.event-object
+
+event.stoppropagation
+event.stopPropagation()
+Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event.
+http://api.jquery.com/event.stopPropagation/
+events.event-object
+
+event.target
+event.target
+The DOM element that initiated the event.
+http://api.jquery.com/event.target/
+events.event-object
+
+event.timestamp
+event.timeStamp
+The difference in milliseconds between the time the browser created the event and January 1, 1970.
+http://api.jquery.com/event.timeStamp/
+events.event-object
+
+event.type
+event.type
+Describes the nature of the event.
+http://api.jquery.com/event.type/
+events.event-object
+
+event.which
+event.which
+For key or mouse events, this property indicates the specific key or button that was pressed.
+http://api.jquery.com/event.which/
+events.event-object
+
+jquery
+jQuery()
+Return a collection of matched elements either found in the DOM based on passed argument(s) or created by passing an HTML string.
+http://api.jquery.com/jQuery/
+core
+
+jquery.callbacks
+jQuery.Callbacks()
+A multi-purpose callbacks list object that provides a powerful way to manage callback lists.
+http://api.jquery.com/jQuery.Callbacks/
+callbacks-object
+
+jquery.deferred
+jQuery.Deferred()
+A factory function that returns a chainable utility object with methods to register multiple callbacks into callback queues, invoke callback queues, and relay the success or failure state of any synchronous or asynchronous function.
+http://api.jquery.com/jQuery.Deferred/
+deferred-object
+
+jquery.ajax
+jQuery.ajax()
+Perform an asynchronous HTTP (Ajax) request.
+http://api.jquery.com/jQuery.ajax/
+ajax.low-level-interface
+
+jquery.ajaxprefilter
+jQuery.ajaxPrefilter()
+Handle custom Ajax options or modify existing options before each request is sent and before they are processed by $.ajax().
+http://api.jquery.com/jQuery.ajaxPrefilter/
+ajax.low-level-interface
+
+jquery.ajaxsetup
+jQuery.ajaxSetup()
+Set default values for future Ajax requests. Its use is not recommended.
+http://api.jquery.com/jQuery.ajaxSetup/
+ajax.low-level-interface
+
+jquery.ajaxtransport
+jQuery.ajaxTransport()
+Creates an object that handles the actual transmission of Ajax data.
+http://api.jquery.com/jQuery.ajaxTransport/
+ajax.low-level-interface
+
+jquery.boxmodel
+jQuery.boxModel
+States if the current page, in the user’s browser, is being rendered using the W3C CSS Box Model.
+http://api.jquery.com/jQuery.boxModel/
+deprecated.1-3 removed utilities
+
+jquery.browser
+jQuery.browser
+Contains flags for the useragent, read from navigator.userAgent. This property was removed in jQuery 1.9 and is available only through the jQuery.migrate plugin. Please try to use feature detection instead.
+http://api.jquery.com/jQuery.browser/
+deprecated.1-3 properties.global-jquery-object removed utilities
+
+jquery.contains
+jQuery.contains()
+Check to see if a DOM element is a descendant of another DOM element.
+http://api.jquery.com/jQuery.contains/
+utilities
+
+jquery.csshooks
+jQuery.cssHooks
+Hook directly into jQuery to override how particular CSS properties are retrieved or set, normalize CSS property naming, or create custom properties.
+http://api.jquery.com/jQuery.cssHooks/
+css
+
+jquery.cssnumber
+jQuery.cssNumber
+An object containing all CSS properties that may be used without a unit. The .css() method uses this object to see if it may append px to unitless values.
+http://api.jquery.com/jQuery.cssNumber/
+css manipulation.style-properties
+
+jquery.data
+jQuery.data()
+Store arbitrary data associated with the specified element and/or return the value that was set.
+http://api.jquery.com/jQuery.data/
+data utilities
+
+jquery.dequeue
+jQuery.dequeue()
+Execute the next function on the queue for the matched element.
+http://api.jquery.com/jQuery.dequeue/
+data utilities
+
+jquery.each
+jQuery.each()
+A generic iterator function, which can be used to seamlessly iterate over both objects and arrays. Arrays and array-like objects with a length property (such as a function’s arguments object) are iterated by numeric index, from 0 to length-1. Other objects are iterated via their named properties.
+http://api.jquery.com/jQuery.each/
+utilities
+
+jquery.error
+jQuery.error()
+Takes a string and throws an exception containing it.
+http://api.jquery.com/jQuery.error/
+internals
+
+jquery.escapeselector
+jQuery.escapeSelector()
+Escapes any character that has a special meaning in a CSS selector.
+http://api.jquery.com/jQuery.escapeSelector/
+css
+
+jquery.extend
+jQuery.extend()
+Merge the contents of two or more objects together into the first object.
+http://api.jquery.com/jQuery.extend/
+utilities
+
+jquery.fn.extend
+jQuery.fn.extend()
+Merge the contents of an object onto the jQuery prototype to provide new jQuery instance methods.
+http://api.jquery.com/jQuery.fn.extend/
+utilities
+
+jquery.fx.interval
+jQuery.fx.interval
+The rate (in milliseconds) at which animations fire.
+http://api.jquery.com/jQuery.fx.interval/
+effects.custom deprecated.3-0 properties.global-jquery-object
+
+jquery.fx.off
+jQuery.fx.off
+Globally disable all animations.
+http://api.jquery.com/jQuery.fx.off/
+effects.custom properties.global-jquery-object
+
+jquery.get
+jQuery.get()
+Load data from the server using a HTTP GET request.
+http://api.jquery.com/jQuery.get/
+ajax.shorthand-methods
+
+jquery.getjson
+jQuery.getJSON()
+Load JSON-encoded data from the server using a GET HTTP request.
+http://api.jquery.com/jQuery.getJSON/
+ajax.shorthand-methods
+
+jquery.getscript
+jQuery.getScript()
+Load a JavaScript file from the server using a GET HTTP request, then execute it.
+http://api.jquery.com/jQuery.getScript/
+ajax.shorthand-methods
+
+jquery.globaleval
+jQuery.globalEval()
+Execute some JavaScript code globally.
+http://api.jquery.com/jQuery.globalEval/
+utilities
+
+jquery.grep
+jQuery.grep()
+Finds the elements of an array which satisfy a filter function. The original array is not affected.
+http://api.jquery.com/jQuery.grep/
+utilities
+
+jquery.hasdata
+jQuery.hasData()
+Determine whether an element has any jQuery data associated with it.
+http://api.jquery.com/jQuery.hasData/
+data
+
+jquery.holdready
+jQuery.holdReady()
+Holds or releases the execution of jQuery’s ready event.
+http://api.jquery.com/jQuery.holdReady/
+core deprecated.3-2 events.document-loading properties.global-jquery-object
+
+jquery.htmlprefilter
+jQuery.htmlPrefilter()
+Modify and filter HTML strings passed through jQuery manipulation methods.
+http://api.jquery.com/jQuery.htmlPrefilter/
+manipulation
+
+jquery.inarray
+jQuery.inArray()
+Search for a specified value within an array and return its index (or -1 if not found).
+http://api.jquery.com/jQuery.inArray/
+utilities
+
+jquery.isarray
+jQuery.isArray()
+Determine whether the argument is an array.
+http://api.jquery.com/jQuery.isArray/
+deprecated.3-2 utilities
+
+jquery.isemptyobject
+jQuery.isEmptyObject()
+Check to see if an object is empty (contains no enumerable properties).
+http://api.jquery.com/jQuery.isEmptyObject/
+utilities
+
+jquery.isfunction
+jQuery.isFunction()
+Determines if its argument is callable as a function.
+http://api.jquery.com/jQuery.isFunction/
+deprecated.3-3 utilities
+
+jquery.isnumeric
+jQuery.isNumeric()
+Determines whether its argument represents a JavaScript number.
+http://api.jquery.com/jQuery.isNumeric/
+deprecated.3-3 utilities
+
+jquery.isplainobject
+jQuery.isPlainObject()
+Check to see if an object is a plain object (created using “{}” or “new Object”).
+http://api.jquery.com/jQuery.isPlainObject/
+utilities
+
+jquery.iswindow
+jQuery.isWindow()
+Determine whether the argument is a window.
+http://api.jquery.com/jQuery.isWindow/
+deprecated.3-3 utilities
+
+jquery.isxmldoc
+jQuery.isXMLDoc()
+Check to see if a DOM node is within an XML document (or is an XML document).
+http://api.jquery.com/jQuery.isXMLDoc/
+utilities
+
+jquery.makearray
+jQuery.makeArray()
+Convert an array-like object into a true JavaScript array.
+http://api.jquery.com/jQuery.makeArray/
+utilities
+
+jquery.map
+jQuery.map()
+Translate all items in an array or object to new array of items.
+http://api.jquery.com/jQuery.map/
+utilities
+
+jquery.merge
+jQuery.merge()
+Merge the contents of two arrays together into the first array.
+http://api.jquery.com/jQuery.merge/
+utilities
+
+jquery.noconflict
+jQuery.noConflict()
+Relinquish jQuery’s control of the $ variable.
+http://api.jquery.com/jQuery.noConflict/
+core miscellaneous.setup-methods
+
+jquery.noop
+jQuery.noop()
+An empty function.
+http://api.jquery.com/jQuery.noop/
+utilities
+
+jquery.now
+jQuery.now()
+Return a number representing the current time.
+http://api.jquery.com/jQuery.now/
+deprecated.3-3 utilities
+
+jquery.param
+jQuery.param()
+Create a serialized representation of an array, a plain object, or a jQuery object suitable for use in a URL query string or Ajax request. In case a jQuery object is passed, it should contain input elements with name/value properties.
+http://api.jquery.com/jQuery.param/
+miscellaneous.collection-manipulation forms ajax.helper-functions
+
+jquery.parsehtml
+jQuery.parseHTML()
+Parses a string into an array of DOM nodes.
+http://api.jquery.com/jQuery.parseHTML/
+utilities
+
+jquery.parsejson
+jQuery.parseJSON()
+Takes a well-formed JSON string and returns the resulting JavaScript value.
+http://api.jquery.com/jQuery.parseJSON/
+deprecated.3-0 utilities
+
+jquery.parsexml
+jQuery.parseXML()
+Parses a string into an XML document.
+http://api.jquery.com/jQuery.parseXML/
+utilities
+
+jquery.post
+jQuery.post()
+Send data to the server using a HTTP POST request.
+http://api.jquery.com/jQuery.post/
+ajax.shorthand-methods
+
+jquery.proxy
+jQuery.proxy()
+Takes a function and returns a new one that will always have a particular context.
+http://api.jquery.com/jQuery.proxy/
+deprecated.3-3 events.event-handler-attachment utilities
+
+jquery.queue
+jQuery.queue()
+Show or manipulate the queue of functions to be executed on the matched element.
+http://api.jquery.com/jQuery.queue/
+data utilities
+
+jquery.ready
+jQuery.ready
+A Promise-like object (or “thenable”) that resolves when the document is ready.
+http://api.jquery.com/jQuery.ready/
+core events.document-loading properties.global-jquery-object
+
+jquery.readyexception
+jQuery.readyException()
+Handles errors thrown synchronously in functions wrapped in jQuery().
+http://api.jquery.com/jQuery.readyException/
+core
+
+jquery.removedata
+jQuery.removeData()
+Remove a previously-stored piece of data.
+http://api.jquery.com/jQuery.removeData/
+data utilities
+
+jquery.speed
+jQuery.speed
+Creates an object containing a set of properties ready to be used in the definition of custom animations.
+http://api.jquery.com/jQuery.speed/
+effects.custom
+
+jquery.sub
+jQuery.sub()
+Creates a new copy of jQuery whose properties and methods can be modified without affecting the original jQuery object.
+http://api.jquery.com/jQuery.sub/
+core deprecated.1-7 removed
+
+jquery.support
+jQuery.support
+A collection of properties that represent the presence of different browser features or bugs. Intended for jQuery’s internal use; specific properties may be removed when they are no longer needed internally to improve page startup performance. For your own project’s feature-detection needs, we strongly recommend the use of an external library such as Modernizr instead of dependency on properties in jQuery.support.
+http://api.jquery.com/jQuery.support/
+deprecated.1-9 properties.global-jquery-object utilities
+
+jquery.trim
+jQuery.trim()
+Remove the whitespace from the beginning and end of a string.
+http://api.jquery.com/jQuery.trim/
+deprecated.3-5 utilities
+
+jquery.type
+jQuery.type()
+Determine the internal JavaScript [[Class]] of an object.
+http://api.jquery.com/jQuery.type/
+deprecated.3-3 utilities
+
+jquery.unique
+jQuery.unique()
+Sorts an array of DOM elements, in place, with the duplicates removed. Note that this only works on arrays of DOM elements, not strings or numbers.
+http://api.jquery.com/jQuery.unique/
+deprecated.3-0 utilities
+
+jquery.uniquesort
+jQuery.uniqueSort()
+Sorts an array or an array-like object of DOM elements, in place, with the duplicates removed. Note that this only works on arrays/array-likes of DOM elements, not strings or numbers.
+http://api.jquery.com/jQuery.uniqueSort/
+utilities
+
+jquery.when
+jQuery.when()
+Provides a way to execute callback functions based on zero or more Thenable objects, usually Deferred objects that represent asynchronous events.
+http://api.jquery.com/jQuery.when/
+core deferred-object
