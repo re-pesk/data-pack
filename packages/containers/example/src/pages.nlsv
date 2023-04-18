@@ -1,0 +1,21 @@
+id
+name
+description
+link
+category
+
+---
+
+ID
+Name
+Description
+Link
+Category
+
+***
+
+add -
+.add()
+Create a new jQuery object with elements added to the set of matched elements.
+http://api.jquery.com/add/
+traversing.miscellaneous-traversing
