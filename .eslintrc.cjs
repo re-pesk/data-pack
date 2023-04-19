@@ -10,7 +10,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  ignorePatterns: ['**/*_.js', '**/*_.js', '**/*_/*.js'],
+  ignorePatterns: ['**/*_.js', '**/*_.js', '**/*_/*.js', 'dist/**/*.js'],
   rules: {
     'max-classes-per-file': 'off',
     'no-console': 'off',
