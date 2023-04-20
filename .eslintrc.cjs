@@ -19,6 +19,7 @@ module.exports = {
       { js: 'always' },
     ],
     'import/no-relative-packages': 'off',
+    'import/no-extraneous-dependencies': ['error', { includeInternal: true, packageDir: './' }],
   },
   settings: {
     'import/ignore': [
