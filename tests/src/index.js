@@ -1,23 +1,5 @@
-import { FunctionalObject, makeClassProxy } from '../lib/functional-object.js';
-
-const expectObject = (obj, expected, message) => {
-  console.assert(obj instanceof Object, 'First argument is not an object!');
-  console.assert(expected instanceof Object, 'Second argument must be an object!');
-  console.assert(typeof message === 'string', 'Message must be a string!');
-  console.assert(JSON.stringify(obj) === JSON.stringify(expected), message);
-};
-
-const expectClass = (obj, classArg, name = 'The object') => {
-  console.assert(obj instanceof Object, 'First argument is not an object!');
-  const constructorStr = classArg.prototype.constructor.toString();
-  console.assert(
-    constructorStr.match(new RegExp(`^function ${classArg.name}\\(\\) \\{ \\[native code\\] \\}`))
-    || constructorStr.match(/^class/),
-    'Second argument is not a class!',
-  );
-  console.assert(typeof name === 'string', 'Name must be a string!');
-  console.assert(obj instanceof classArg, `${name} is not an instance of ${classArg.name}!`);
-};
+import { FunctionalObject, makeClassProxy } from 'functional-object';
+import { expectClass, expectObject } from 'test-helpers';
 
 class ContainerClass extends FunctionalObject {
   constructor(...instanceArgs) {
