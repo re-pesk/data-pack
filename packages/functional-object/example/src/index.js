@@ -1,4 +1,4 @@
-import { FunctionalObject, makeClassProxy } from '../src/functional-object.js';
+import { FunctionalObject, makeClassProxy } from '../../src/functional-object.js';
 
 class ContainerClass extends FunctionalObject {
   constructor(...instanceArgs) {

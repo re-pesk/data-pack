@@ -2,7 +2,13 @@
   "name": "containers",
   "version": "0.0.1",
   "description": "Containers",
-  "scripts": {
+  "type": "module",
+  "main": "./src/containers.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./src/containers.js"
+  },
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/re-pesk/containers/issues"
   },
-  "homepage": "https://github.com/re-pesk/containers#readme"
+  "homepage": "https://github.com/re-pesk/containers#readme",
+  "dependencies": {
+    "functional-object": "file:../functional-object"
+  }
 }

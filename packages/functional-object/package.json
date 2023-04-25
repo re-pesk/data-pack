@@ -2,7 +2,13 @@
   "name": "functional-object",
   "version": "0.0.1",
   "description": "Functional Object",
-  "scripts": {
+  "type": "module",
+  "main": "src/functional-object.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./src/functional-object.js"
+  },
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,9 +27,9 @@
     "url": "https://github.com/re-pesk/functional-object/issues"
   },
   "homepage": "https://github.com/re-pesk/functional-object#readme",
-  "devDependencies": {
-    "eslint": "^8.38.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5"
-  }
+  "directories": {
+    "example": "example",
+    "src": "src"
+  },
+  "devDependencies": {}
 }

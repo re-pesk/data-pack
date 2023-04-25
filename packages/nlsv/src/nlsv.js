@@ -1,13 +1,11 @@
 // Get content from file on server
-export const getContent = async (url) => {
-  return await fetch(url)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
-      }
-      return response.text();
-    });
-}
+export const getContent = async (url) => fetch(url)
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
+    }
+    return response.text();
+  });
 
 // Make body entries to create Map
 const makeCategoryBody = (record) => [record[0], record];
@@ -30,7 +28,7 @@ export const makeDataObject = (nslvContent) => {
   }
 
   // Split body records and fields
-  body = body.split('\n\n').map(record => record.replace(/(?<=\n)-(-?)(?=\n)/g, '$1').split('\n'));
+  body = body.split('\n\n').map((record) => record.replace(/(?<=\n)-(-?)(?=\n)/g, '$1').split('\n'));
 
   // Create body Map
   body = new Map(body.map(makeCategoryBody));
@@ -41,14 +39,14 @@ export const makeDataObject = (nslvContent) => {
   }
 
   // Split headers
-  head = head.split('\n\n').map(record => record.split('\n'));
+  head = head.split('\n\n').map((record) => record.split('\n'));
 
   // Make headers Map
   head = new Map(head.map(makeCategoryHeader));
 
   // Return object with headers and body
   return { head, body };
-}
+};
 
 // Get content from nlsv file and convert it to data object
 export const getNlsvData = async (url) => makeDataObject((await getContent(url)).trim());
