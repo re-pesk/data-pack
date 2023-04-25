@@ -10,6 +10,13 @@
       "name": "Launch Chrome against localhost",
       "url": "http://127.0.0.1:3000/index.html",
       "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "node-terminal",
+      "name": "functional-object: test",
+      "request": "launch",
+      "command": "npm run test",
+      "cwd": "${workspaceFolder}/packages/functional-object"
     }
   ]
 }
