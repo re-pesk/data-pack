@@ -1,5 +1,6 @@
 import { FunctionalObject, makeClassProxy } from 'functional-object';
 
+// Declare simple class
 class ContainerClass extends FunctionalObject {
   constructor(...instanceArgs) {
     // arrow function, no prototype object created
@@ -12,6 +13,8 @@ class ContainerClass extends FunctionalObject {
   }
 }
 
+// Make callable class (proxy of class) for making callable instaces (functional objects)
+// of simple class
 const Container = makeClassProxy(ContainerClass);
 
 const container = Container('a', 'b');
@@ -26,6 +29,7 @@ console.assert(container instanceof ContainerClass, 'container is not and instan
 console.assert(container instanceof FunctionalObject, 'container is not and instance of %s', FunctionalObject.name);
 console.assert(container instanceof Function, 'container is not and instance of %s', Function.name);
 
+// Declare class for making callable instances (callable objects)
 class ContainerClassProxy extends FunctionalObject {
   #handler = {
     apply(targetInstance, thisArg, instanceCallingArgs) {
@@ -45,6 +49,8 @@ class ContainerClassProxy extends FunctionalObject {
   }
 }
 
+// Make callable class (proxy of class) for making callable instaces (functional objects)
+// of proxy-maker class
 const Container2 = makeClassProxy(ContainerClassProxy, {
   apply(TargetClass, thisArg, instanceCreationArgs) {
     return new TargetClass(...instanceCreationArgs);
